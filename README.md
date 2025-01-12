@@ -115,7 +115,17 @@ but they are also fairly easy to guess. .. oops I mean read the documentation.
 
 
 
+<pre>
 
+     # Basic configuration there is a response time,
+     # sending commands too quickly can cuase problems.
+    scope.write(':TIMEBASE:SCALE 0.001')  # Set timebase scale to 1ms/div
+    scope.write(':CHANNEL1:DISPLAY ON')   # Enable CH1 display
+    scope.write(':CHANNEL1:SCALE 0.5')    # Set CH1 scale to 500mV/div
+    scope.write(':TRIGGER:EDGE:SOURCE CHAN1')  # Set trigger source to CH1
+    scope.write(':TRIGGER:EDGE:LEVEL 0.0')     # Set trigger level to 0V
+    scope.write(':TRIGGER:EDGE:SLOPE POS')     # Set trigger slope to positive
+</pre>
 
 
 
