@@ -43,7 +43,8 @@ mv EXTERNALLY-MANAGED tmp_EXTERNALLY-MANAGED
 sudo mv EXTERNALLY-MANAGED tmp_EXTERNALLY-MANAGED
 `
 <pre>
-to find the path of the file locking your pip installations, move that file to a temp location, install a bunch of pip packages, then re-assert the thing locking up your ability to install packages. 
+to find the path of the file locking your pip installations, move that file to a temp location, install a bunch of pip packages,
+then re-assert the thing locking up your ability to install packages. 
 pip install pyvisa, zeroconf, psutil, pyusb
 
 
