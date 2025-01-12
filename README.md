@@ -11,6 +11,7 @@ I followed those instructions, and it still did not work right.
 I can assume Im on linux. If not, maybe do a wellness check.
 <br>
 Check your group permissions with:
+ </pre>
 `
 $groups
 fossboss adm dialout cdrom sudo audio video plugdev games users input render netdev lpadmin gpio i2c spi
@@ -110,5 +111,5 @@ but they are also fairly easy to guess. .. oops I mean read the documentation.
 
 
 
-</pre>
+
 
