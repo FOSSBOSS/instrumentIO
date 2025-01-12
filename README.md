@@ -125,6 +125,19 @@ but they are also fairly easy to guess. .. oops I mean read the documentation.
     scope.write(':TRIGGER:EDGE:SOURCE CHAN1')  # Set trigger source to CH1
     scope.write(':TRIGGER:EDGE:LEVEL 0.0')     # Set trigger level to 0V
     scope.write(':TRIGGER:EDGE:SLOPE POS')     # Set trigger slope to positive
+....
+
+$sudo ./workdamnit.py 
+Available instruments: ('USB0::6833::1230::DS1ZA253703047::0::INSTR',)
+/usr/lib/python3/dist-packages/pyvisa_py/protocols/usbtmc.py:115: UserWarning: Unexpected MsgID format. Consider updating the device's firmware. See https://github.com/pyvisa/pyvisa-py/issues/20
+  warnings.warn(
+Connected to: RIGOL TECHNOLOGIES,DS1104Z,DS1ZA253703047,00.04.05.SP2
+
+Timebase set: 1.0000000e-03
+
+beeps on init>
+
+ 
 </pre>
 
 
