@@ -1,0 +1,1 @@
+lets imagine I solve all the connundrums of auto enstantiating linux VISA instrumentation and put some helpful scripts in there to make future installs simple.
